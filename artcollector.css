@@ -1,1 +1,18 @@
-/* CSS declarations go here */
+
+.listOfArtists {
+  list-style-type: none;
+}
+.workName {
+  font-style: italic;
+}
+.selected {
+  background-color: turquoise;
+}
+.emphasis {
+  font-weight: bold;
+  font-family: Palatino, sans-serif;
+}
+.thumb {
+  height: 50px;
+  width: 50px;
+}

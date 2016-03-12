@@ -4,9 +4,21 @@
 </head>
 
 <body>
-  {{> showDate}}
 
-  {{> artists}}
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Art Collector</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    {{> showDate}}
+  </div>
+
+  <div>
+    {{> artists}}
+  </div>
+
 </body>
 
 <template name="showDate">
